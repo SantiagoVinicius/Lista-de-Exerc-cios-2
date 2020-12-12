@@ -1,6 +1,7 @@
-## Exercício 003
-# Agenda Telefônica
-Crie um programa que seja uma agenda telefonica:
-- possua duas caixas de textos para o usuário o nome e o telefone do contato
+## Exercício 002
+# Conversão para dólar
+Crie um programa que faça a conversão de Reais(R$) para Dólar($):
+- possua duas caixas de textos, uma para informar o valor em reais e a cotação atual do dólar
 - um botão
-- ao clicar no botão o programa deve pegar o nome e o telefone do contato e acrescentar em uma lista(ul)
+- ao clicar no botão o programa deve coverter o valor de reais para dólar e apresentar na tela (dentro de uma div ou spam)
+- a conta para realizar a conversão é: ****Valor Informado em R$ / Pela cotação do dólar***

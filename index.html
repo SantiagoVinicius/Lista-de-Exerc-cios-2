@@ -3,23 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 003</title>
+    <title>Exercício 002</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="images/favicon.png">
 </head>
 <body>
-    <h1>Agenda Telefônica</h1>
-    <form>
-    
-        <label for="Nome">Nome:</label>
-        <input type="text" id="Nome"> <br>
-        <label for="Telefone">Telefone:</label>
-        <input type="text" id="Telefone"> <br>
-    
+    <label for="numero1"></label>Informe:<input type="number" id="numero1" name="numero1" required placeholder="Valor em Reais (R$)">
+</p>
+<p>
+    <label for="numero2"></label>Informe:<input type="number" id="numero2" name="numero2" required placeholder="Valor em Dólar">
+</p>
 
-    <button type="button" onclick="Salvar();">Salvar</button>
-    </form> 
-    <ul id="agenda"></ul>
+<button type="button" onclick="divisão()">Converter</button><br>
+<span id="resultado"></span>
+
     <script src="js/funcoes.js"></script>
 </body>
 </html>
